@@ -1,0 +1,14 @@
+{
+  "_comment": "Copy to config.json and edit if you want to script repeated invocations with a fixed set of flags. VULNX itself reads all settings from CLI arguments; this file is a convenience template for your own wrapper scripts, not something vulnx.py loads automatically.",
+  "url": "https://authorized.example",
+  "scan": "recon",
+  "profile": "safe",
+  "authorized": true,
+  "timeout": 10,
+  "max_pages": 50,
+  "rate_limit": 5,
+  "concurrency": 1,
+  "random_agent": false,
+  "batch": true,
+  "verbose": false
+}
